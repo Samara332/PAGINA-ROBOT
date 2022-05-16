@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASE 3: BRAZO ROBÓTICO</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Brazo robótico">
+    <meta name="description"
+        content="Proyecto de ASE 3, brazo robótico de 5 ejes de movimiento.">
+
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./images/rojo.png"  width="150" height="60"  >
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="diseño.html" class="nav__links">Diseño</a>
+                </li>
+                <li class="nav__items">
+                    <a href="maquinado.html" class="nav__links">Maquinado</a>
+                </li>
+                <li class="nav__items">
+                    <a href="control.html" class="nav__links">Control</a>
+                </li>
+                <li class="nav__items">
+                    <a href="descargas.html" class="nav__links">Descargas</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h2 class="hero__title">BRAZO ROBÓTICO CON 5 GRADOS DE LIBERTAD DE BAJO COSTO</h2>
+          
+           
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿En qué consiste el proyecto?</h2>
+            <p class="about__paragraph">El objetivo principal de este proyecto es documentar los pasos seguidos 
+                en la elaboración de un brazo robótico a costo accesible. Algunos de los softwares utilizados se enlistan a continuación:</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Matlab: AppDesigner</h3>
+                    <p class="about__paragrah">Permite realizar aplicaciones que funcionan en paralelo con scripts y programas, tanto de Matlab como de Simulink,se realizó una aplicación que permite
+                        conectarse con el robot.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Robotics System Toolbox </h3>
+                    <p class="about__paragrah">Como primer paso se generó el modelado en 3D del brazo robótico controlable de forma dinámica 
+                        por Simscape y Robotics System Toolbox utilizando el modelo de SolidWorks de este.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Simulink</h3>
+                    <p class="about__paragrah"></p>Se compiló un programa de Matlab-Simulink por medio de un script que se encarga de generar las variables para poder ser 
+                    utilizado dentro de un bloque de control cinemático.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Video del proyecto</h2>
+                    <p class="knowledge__paragraph">Para una mayor comprensión del proyecto se ha realizado un video en el cual 
+                        se puede apreciar el proceso de desarrollo del prototipo desde sus inicios hasta los resultados finales, mismo que 
+                        se puede visualizar a continuación.
+                    </p>
+                    <a href="#" class="cta">Ver video</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/macbook.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">El proyecto puede dividirse en 3 fases:</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Fase 1</p>
+                    <h3 class="price__price">Diseño</h3>
+
+                    <div class="price__items">
+                        <img src="./images/diseño2.jpg"  width="325" height="300"  >
+                    </div>
+
+                    <a href="diseño.html" class="price__cta">Ver más</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Fase 2</p>
+                    <h3 class="price__price">Maquinado</h3>
+
+                    <div class="price__items">
+                        <img src="./images/maquinado.jpg"  width="375" height="300"  >
+                        
+                    </div>
+
+                    <a href="maquinado.html" class="price__cta">Ver más</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Fase 3</p>
+                    <h3 class="price__price">Control</h3>
+
+                    <div class="price__items">
+                        <img src="./images/control.jpg"  width="325" height="300"  >
+                    </div>
+
+                    <a href="control.html" class="price__cta">Ver más</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Salma Tzay Cruz Ramirez, <span class="testimony__course">estudiante
+                                de Ing. Mecatrónica.</span></h2>
+                        <p class="testimony__review">Integrante del equipo, décimo semestre en Ingeniería Mecatrónica</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/SALMA.PNG" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Ariel Hernández, <span class="testimony__course">estudiante
+                            de Ing. Mecatrónica.</span></h2>
+                        <p class="testimony__review">Integrante del equipo, décimo semestre en Ingeniería Mecatrónica</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/ARIEL.PNG" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Ivonne Montesinos, <span class="testimony__course">estudiante
+                            de Ing. Mecatrónica.</span></h2>
+                        <p class="testimony__review">Integrante del equipo, décimo semestre en Ingeniería Mecatrónica</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/IVY.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Ramiro Ixbalcan Samayoa, <span class="testimony__course">estudiante
+                            de Ing. Mecatrónica.</span></h2>
+                        <p class="testimony__review">Integrante del equipo, décimo semestre en Ingeniería Mecatrónica</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/RAMIRO.PNG" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Al terminar el proyecto</h2>
+            <p class="questions__paragraph">Luego de trabajar durante todo el semestre se obtuvieron los siguientes resultados, conclusiones y recomendaciones.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Resultados
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">    Debido a la complejidad del proyecto, fue necesario hacer distintas iteraciones en el modelado 3D del robot. El cambio más importante fue dejar de lado los motores NEMA 43, debido a las restricciones económicas que representaba maquinar piezas que lograran sostener el peso de estos motores. Se optó por usar dos motores NEMA 23, los cuales se ubican en
+                             la parte inferior del robot y son usados para crear el movimiento esférico de la base dando movimiento al primer y 
+                             segundo eje.
+                             Adicionalmente, se diseñó una tarjeta personalizada para el control de los motores en el software
+                              easyEDA, la cual se muestra en la imagen 21, que opera con un microcontrolador ATmega32U4 
+                              correspondiente al arduino Leonardo usado para las pruebas </p>
+
+
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Conclusiones
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">A nivel mecánico fue necesario modificar los planes inciales y optar por 
+                            recursos alternos con tal de satisfacer los objetivos proyectados, sin embargo, a pesar de las
+                             dificultades y los contratiempos se logró diseñar, maquinar y ensamblar el modelo que fue 
+                             considerado óptimo.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Consideraciones y recomendaciones
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Recomendaciones incluyen incrementar la relación de los reductores, agregar
+                             dos reductores más en los ejes 4 y 5, e implementar un sistema de frenos NO (Normalmente Cerrados)
+                             en todos los ejes del brazo robótico, esto último permitiría que en caso de un corte energético las
+                              posiciones de los ejes se mantengan.
+                              Adicionalmente, se recomienda que el software tenga la posibilidad de crear y guardar rutinas 
+                              complejas para enriquecer las funciones del robot mediante la interfaz de usuario.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Quieres saber más de brazos robóticos?</h2>
+                <p class="questions__copy">Puedes visitar el siguiente link en donde encontrarás información relevante de los brazos robóticos y su futuro en la ingeniería</p>
+                <a href="https://www.youtube.com/watch?v=iI5Z9rJ_lwM" class="cta">Ver ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <img src="./images/rojo.png"  width="150" height="60"  >
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="diseño.html" class="nav__links">Diseño</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="maquinado.html" class="nav__links">Maquinado</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="control.html" class="nav__links">Control</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="descargas.html" class="nav__links">Descargas</a>
+                    </li>
+                </ul>
+            </nav>
+
+          
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                
+                <a href="https://es-la.facebook.com/IberoPueblaMX/" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="https://twitter.com/IberoPuebla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com/user/iberoPueblaOficial" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Universidad Iberoamericana Puebla &copy; </h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
